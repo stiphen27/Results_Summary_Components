@@ -1,0 +1,106 @@
+html{
+    width: 1440px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+p{
+    font-size: 18px;
+}
+h1{
+    font-weight: 800;
+    font-size: 60px;
+    margin: 0px;
+}
+
+.contenedor{
+    margin: 150px 450px;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 4px 0.8px 10px;
+}
+
+
+.caja1{
+    border-radius: 20px;
+    width: 50%;
+    background:linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    text-align: center;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+
+.caja2{
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: 20px 20px;
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+.resultado{
+    border-radius: 50%;
+   background: radial-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    height: 120px;
+    width: 120px;
+    margin: 20px;
+    padding: 20px;
+    display: block;
+    /*place-content: center;*/
+}
+.reaction{
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    background-color: hsla(0, 100%, 67%, 0.1);
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.memory{
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+    background-color: hsla(39, 100%, 56%, 0.1);
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.verbal{
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+    background-color: hsla(166, 100%, 37%, 0.1);
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.visual{
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+    background-color: hsla(234, 85%, 45% ,0.1);
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+.continue{
+    background: hsl(224, 30%, 27%);
+    color: white;
+    border-radius: 20px;
+    padding: 1px;
+    margin-top: 25px;
+}
+
+
+h2{
+    text-align: left;
+    font-weight: 700;
+}
+
+.caja1 p{
+    color: lightgrey;
+}
+
